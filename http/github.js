@@ -31,7 +31,7 @@
 
 const fetch = require('node-fetch');
 
-let promesa = fetch("https://api.github.com/repos/briciorg/REPOTEST/commits");
+let promesa = fetch("https://api.github.com/repos/briciorg/githubpractica/events");
 promesa.then((res) => {
     return res.json();
 }).then((json) => {
